@@ -1,63 +1,15 @@
-# Nuxt 3 Minimal Starter
+# Nuxt - Decap/NetlifyCMS - Tailwind
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This template demonstrates the creation of a static site using:
 
-## Setup
+- Nuxt 3
+- Tailwind CSS
+- Decap CMS (formerly Netlify)
+- Nuxt Content (for rendering mdx from decap)
 
-Make sure to install the dependencies:
 
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Check out the docs:
+- [Nuxt](https://nuxt.com/docs/getting-started/deployment)
+- [Decap](https://decapcms.org/docs/configuration-options)
+- [Tailwind Nuxt Module](https://tailwindcss.nuxtjs.org/)
+- [Nuxt Content Module](https://content.nuxtjs.org/)
