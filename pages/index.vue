@@ -1,9 +1,10 @@
 <script setup>
   
 useHead({
+  title: 'Home',
   script: [
     { src: "https://identity.netlify.com/v1/netlify-identity-widget.js" },
-  ],
+  ]
 });
 
 </script>
@@ -20,7 +21,7 @@ useHead({
       </ul>
     </div>
     <div>
-      <h3 class="text-2xl">The Blog</h3>
+      <h2 class="text-2xl">The Blog</h2>
       <p>The blog is the core of this site. <NuxtLink to="/blog" class="underline text-indigo-300">Click here -></NuxtLink></p>
     </div>
   </main>

@@ -8,5 +8,11 @@ export default defineNuxtConfig({
   content: {
     // https://content.nuxtjs.org/api/configuration
   },
+  app: {
+    head: {
+      charset: 'utf-8',
+      viewport: 'width=device-width, initial-scale=1',
+    }
+  },
   devtools: { enabled: true }
 })
