@@ -1,8 +1,12 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  srr: true,
+  ssr: true,
   modules: [
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    '@nuxt/content'
   ],
+  content: {
+    // https://content.nuxtjs.org/api/configuration
+  },
   devtools: { enabled: true }
 })
